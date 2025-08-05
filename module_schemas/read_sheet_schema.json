@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "required": ["sheet_id", "range"],
+  "properties": {
+    "sheet_id": {
+      "type": "string",
+      "description": "The ID of the Google Spreadsheet"
+    },
+    "range": {
+      "type": "string",
+      "description": "The A1 notation of the range to retrieve (e.g., 'Sheet1!A1:D10')"
+    }
+  }
+}

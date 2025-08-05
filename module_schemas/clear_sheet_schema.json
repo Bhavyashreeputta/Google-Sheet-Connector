@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "required": ["sheet_id", "range"],
+  "properties": {
+    "sheet_id": {"type": "string"},
+    "range": {"type": "string", "description": "e.g., 'Sheet1' or 'Sheet1!A1:C1000'"}
+  }
+}

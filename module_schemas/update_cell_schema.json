@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "required": ["sheet_id", "cell", "value"],
+  "properties": {
+    "sheet_id": {"type": "string"},
+    "cell": {"type": "string", "description": "A1 cell, e.g., 'Sheet1!B2'"},
+    "value": {"description": "New value for the cell"}
+  }
+}

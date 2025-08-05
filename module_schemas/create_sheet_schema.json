@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "required": ["sheet_id", "new_title"],
+  "properties": {
+    "sheet_id": {"type": "string"},
+    "new_title": {"type": "string", "minLength": 1}
+  }
+}

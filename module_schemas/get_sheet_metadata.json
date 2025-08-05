@@ -1,0 +1,7 @@
+{
+  "type": "object",
+  "required": ["sheet_id"],
+  "properties": {
+    "sheet_id": {"type": "string"}
+  }
+}
