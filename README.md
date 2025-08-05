@@ -1,6 +1,6 @@
 # Google Sheets Connector
 
-This project implements a **Google Sheets API connector** using **Flask**, designed per the architecture guidelines of **Stacksync**. It supports core spreadsheet operations through clearly defined modules and schemas and is deployed to **Google Cloud Run**.
+This project implements a **Google Sheets API connector** using **Flask**. It supports core spreadsheet operations through clearly defined modules and schemas and is deployed to **Google Cloud Run**.
 
 ---
 
