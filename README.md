@@ -8,16 +8,17 @@ This project implements a **Google Sheets API connector** using **Flask**. It su
 
 This connector implements **7 key operations**:
 
-|  Module | Description |
-|----------|----------------|
-| `read_sheet` | Read rows from a specific range |
-| `write_sheet` | Write or append rows to a sheet |
-| `update_cell` | Update a single cell value |
-| `delete_row` | Delete a row by index |
-| `clear_sheet` | Clear all data from a sheet |
-| `get_sheet_metadata` | Get sheet titles, IDs, row/column counts |
-| `create_sheet` | Create a new named sheet inside a spreadsheet |
+| Module               | Endpoint              | Description                                   |
+|----------------------|-----------------------|-----------------------------------------------|
+| `read_sheet`         | `/read_sheet`         | Read rows from a specific range               |
+| `write_sheet`        | `/write_sheet`        | Write or append rows to a sheet               |
+| `update_cell`        | `/update_cell`        | Update a single cell value                    |
+| `delete_row`         | `/delete_row`         | Delete a row by index                         |
+| `clear_sheet`        | `/clear_sheet`        | Clear all data from a sheet                   |
+| `get_sheet_metadata` | `/get_sheet_metadata` | Get sheet titles, IDs, and row/column counts |
+| `create_sheet`       | `/create_sheet`       | Create a new named sheet in a spreadsheet     |
 
+All endpoints accept `POST` requests with `application/json` payloads.
 Each module is defined with a **schema file** in `module_schemas/`.
 
 ---
