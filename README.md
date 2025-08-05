@@ -21,6 +21,10 @@ This connector implements **7 key operations**:
 Each module is defined with a **schema file** in `module_schemas/`.
 
 ---
+## Authentication
+
+- The app uses a **hardcoded `service_account.json`** file for Google Sheets API auth.
+- The target Google Sheet must be **shared with the `client_email`** from this service account and given **Editor access**.
 
 ## Deployment
 
