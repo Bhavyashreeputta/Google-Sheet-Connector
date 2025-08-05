@@ -10,13 +10,13 @@ This connector implements **7 key operations**:
 
 |  Module | Description |
 |----------|----------------|
-| `ping_sheet` | Check if the spreadsheet is accessible |
 | `read_sheet` | Read rows from a specific range |
 | `write_sheet` | Write or append rows to a sheet |
 | `update_cell` | Update a single cell value |
 | `delete_row` | Delete a row by index |
 | `clear_sheet` | Clear all data from a sheet |
 | `get_sheet_metadata` | Get sheet titles, IDs, row/column counts |
+| `create_sheet` | Create a new named sheet inside a spreadsheet |
 
 Each module is defined with a **schema file** in `module_schemas/`.
 
